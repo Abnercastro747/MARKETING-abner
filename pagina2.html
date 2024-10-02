@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 2</title>
+    <link rel="stylesheet" href="css/pagina2.css">
+</head>
+<body>
+    <div class="contenedor">
+
+        <header id="enc"><img id="img2" src="img/_Banner.png" alt=""></header>
+        <div id="con1">
+            <a href="index.html">Inicio</a>
+            <a href="pagina1.html">Página 1</a>
+            <a href="pagina3.html">Página 3</a>
+
+        </div>
+        <div id="con2">
+            <br>
+            <a href="https://docs.google.com/presentation/d/1FQc7QxThm5LAT1qHRiMG1W1MB10eeNtoVlPrCuVbSno/edit#slide=id.g2d37bdf4ad2_2_0"> <img width="600px" height="400px" src="img/4p.png" alt=""></a>
+           
+        </div>
+        <div id="con3">
+            <br>
+            <a href="https://docs.google.com/presentation/d/1lqsvNA4PVR5xVQ7yxXdOvACamg7s_xp_ppAJ3aA9bOM/edit#slide=id.g11800371d9e_0_1435"><img src="img/foda.png" width="600px" height="400px" alt=""></a>
+        </div>
+        <div id="con4">
+            <br>
+            <form action="/submit" method="POST"></form>
+                
+                <label for="name">Nombre Completo:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+            
+            
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+            
+                <label for="quantity">Cantidad de Lámparas:</label><br>
+                <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+             
+                <label for="payment">Método de Pago:</label><br>
+                <select id="payment" name="payment" required>
+                    <option value="tarjeta">Tarjeta de Crédito/Débito</option>
+                    <option value="paypal">PayPal</option>
+                </select><br><br>
+            
+                <button type="submit">Realizar Pedido</button>
+            </form>
+        </div>
+        <footer id="pie">LAMPER'S WUAW</footer>
+
+    </div>
+    
+</body>
+</html>
